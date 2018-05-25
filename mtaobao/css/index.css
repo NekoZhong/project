@@ -1,0 +1,144 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* top开始 */
+#top{
+    width: 100%;
+    background: orangered;
+    overflow: hidden;
+    padding: 1% 0;
+    display: flex;
+    align-items: center;
+}
+#top #taobao{
+    font-size: 7vw;
+    color: white;
+    float: left;
+    margin-left: 1%
+}
+#top .search{
+    width: 89%;
+    display: block;
+    float: left;
+    margin-left: 1%;
+    background: #B52600;
+    text-align: center;
+    color: #F0E0DC;
+    line-height: 2.2em;
+    text-decoration: none;
+    font-size: 3.2vw;
+    border-radius: 6px;
+}
+#top .search i{
+    font-size: 4vw;
+}
+/* top结束 */
+
+/* swiper开始 */
+
+.swiper-container {
+    width: 100%;
+}  
+
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    justify-content: right;
+}
+.swiper-pagination{
+    display: flex;
+    justify-content: flex-end;
+}
+
+
+/* swiper结束 */
+
+/* icon开始 */
+#icon{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+#icon li{
+    width: 20%;
+    list-style: none;
+    margin-top: 2%;
+}
+#icon li img{
+    width: 80%;
+    display: block;
+    margin: 0 auto;
+}
+#icon li a{
+    display: block;
+    width: 100%;
+    font-size: 1vw;
+    text-align: center;
+    text-decoration: none;
+    line-height: 2em;
+    color: rgb(102,102,102)
+}
+
+/* icon结束 */
+
+/* 淘宝头条开始 */
+.first{
+    width: 100%;
+    padding: 2% 0;
+    display: flex;
+    align-items: center;
+    margin-top: 2%;
+}
+.first img{
+    width: 25%;
+    border-right: 1px solid #f9f9f9;
+    padding-right: 3%;
+    float: left;
+}
+.first span{
+    border: 1px solid  rgb(216, 20,33);
+    border-radius: 5px;
+    color: rgb(216, 20,33);
+    padding: 1px;
+    font-size: 4vw;
+    float: left;
+
+}
+.first a{
+    width: 55%;
+    margin-left: 3%;
+    text-decoration: none;
+    font-size: 4vw;
+    float: left;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    color: rgb(53,53,53)
+}
+/* 淘宝头条结束 */
+
+/* 图片展示区 */
+
+.all-section{
+    display: flex;
+    width: 100%;
+}
+.all-section .picture{
+    width: 40%;
+}
+.all-section .picture img{
+    width: 100%;
+}
+.all-section .picture2{
+    display: flex;    
+    width: 60%;
+    flex-wrap: wrap;
+}
+.all-section .picture2 img{
+    width: 50%;
+    height: 50%;
+}
+/* 图片展示区结束 */

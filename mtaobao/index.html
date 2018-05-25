@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0;">
+    <title>mtaobao</title>
+    <link rel="stylesheet" href="./css/iconfont.css">
+    <link rel="stylesheet" href="./css/index.css">
+    <link rel="stylesheet" href="./css/swiper-4.2.0.min.css">
+</head>
+<body>
+    <!-- 顶部搜索框 -->
+    <div id="top">
+        <i id="taobao" class="iconfont icon-taobao"></i>
+        <a href="" class="search"><i class="iconfont icon-sousuo"></i>寻找宝贝店铺</a>
+    </div>
+    <!-- 顶部搜索框结束 -->
+
+<!-- Swiper -->
+    <div class="swiper-container">
+        <div class="swiper-wrapper">
+            <img src="./src/lunbo1.jpg" class="swiper-slide">
+            <img src="./src/lunbo2.jpg" class="swiper-slide">
+            <img src="./src/lunbo3.jpg" class="swiper-slide">
+            <img src="./src/lunbo4.jpg" class="swiper-slide">
+        </div>
+        <!-- Add Pagination -->
+        <div class="swiper-pagination"></div>
+    </div>
+    <!-- 10个图标 -->
+    <ul id="icon">
+        <li><img src="./src/2.png"><a href="">天猫超市</a></li>
+        <li><img src="./src/1.png"><a href="">天猫超市</a></li>
+        <li><img src="./src/3.png"><a href="">天猫超市</a></li>
+        <li><img src="./src/4.png"><a href="">天猫超市</a></li>
+        <li><img src="./src/5.png"><a href="">天猫超市</a></li>
+        <li><img src="./src/6.png"><a href="">天猫超市</a></li>
+        <li><img src="./src/7.png"><a href="">天猫超市</a></li>
+        <li><img src="./src/8.png"><a href="">天猫超市</a></li>
+        <li><img src="./src/9.png"><a href="">天猫超市</a></li>
+        <li><img src="./src/10.png"><a href="">天猫超市</a></li>
+    </ul>    
+    <!-- 10个图标结束 -->
+    <!-- 淘宝头条开始 -->
+    <div class="first">
+        <img src="./src/taobaott.png" >
+        <span>园艺</span>
+        <a href="">多肉种植浇水有技巧，你get到了吗？</a>
+    </div>
+    <!-- 淘宝头条结束 -->
+    <!-- 图片展示区 -->
+<div class="all-section">
+        <div class="picture">
+            <img src="./src/11.jpg">
+        </div>
+        <div class="picture2">
+            <img src="./src/12.jpg">
+            <img src="./src/12.jpg">
+            <img src="./src/13.jpg">
+            <img src="./src/14.png">
+        </div>
+</div>
+    <!-- 图片展示区结束 -->
+    <script src="./js/index.js"></script>
+    <script src="./js/swiper-4.2.0.min.js"></script>
+    <script>
+        var swiper = new Swiper('.swiper-container', {
+            spaceBetween: 30,
+            centeredSlides: true,
+            autoplay: {
+                delay: 2500,
+                disableOnInteraction: false,
+            },
+            pagination: {
+                el: '.swiper-pagination',
+                clickable: true,
+            },
+            navigation: {
+                nextEl: '.swiper-button-next',
+                prevEl: '.swiper-button-prev',
+            },
+        });
+    </script>
+</body>
+</html>
